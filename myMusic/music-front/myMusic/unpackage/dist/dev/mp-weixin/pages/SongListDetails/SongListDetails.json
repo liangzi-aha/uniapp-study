@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "musichead": "/components/musichead/musichead",
+    "u-swipe-action": "/uview-ui/components/u-swipe-action/u-swipe-action"
+  }
+}

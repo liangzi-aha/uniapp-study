@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "musichead": "/components/musichead/musichead",
+    "bing-progress": "/components/bing-progress/bing-progress"
+  }
+}

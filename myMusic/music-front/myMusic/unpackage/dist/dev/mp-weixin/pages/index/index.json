@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "musichead": "/components/musichead/musichead",
+    "m-for-skeleton": "/components/m-for-skeleton/m-for-skeleton"
+  }
+}

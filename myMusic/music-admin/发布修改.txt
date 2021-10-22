@@ -1,0 +1,10 @@
+1、page.json 添加
+// "homepage": "/publicStatic/background/",
+2、common.js  resourceUrl 修改
+resourceUrl = 'http://47.102.107.202:8080/'
+
+3、 nodeServer
+mysql: 地址修改
+4、app.js 端口号修改
+8080
+5、建议把 nodeServer 下的 lyric、music、musicImg 三个目录清空上传，会快一点

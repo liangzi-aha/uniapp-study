@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "list",
+          "pathName": "pages/list/list",
+          "query": "id=3"
+        },
+        {
+          "name": "详情",
+          "pathName": "pages/detail/detail",
+          "query": "songId=1437636100",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/love_music/love_music",
+          "pathName": "pages/love_music/love_music",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

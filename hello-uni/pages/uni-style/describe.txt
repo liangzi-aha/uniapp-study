@@ -1,0 +1,6 @@
+1、@import css2 新增功能，style中引入样式
+2、使用iconfont字体图标
+3、使用字体包
+4、rpx 和小程序一样、
+5、app中全局样式，和pages中局部样式
+6、安装scss css预处理器

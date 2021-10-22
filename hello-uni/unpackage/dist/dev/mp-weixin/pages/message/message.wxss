@@ -1,0 +1,22 @@
+
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+.box2{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+}
+.box2-active{
+	width: 200px;
+	height: 200px;
+	background-color: #4CD964;
+}
+.box-action{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+

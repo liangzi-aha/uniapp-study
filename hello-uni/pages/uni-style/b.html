@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title></title>
+		<style>
+			@import url("./a.css");
+
+			@font-face {
+				font-family: myFirstFont;
+				src: url('../../static/font/webfont.ttf');
+				/* IE9 */
+			}
+
+			div {
+				font-family: myFirstFont;
+			}
+		</style>
+	</head>
+	<body>
+		<div>webVpn</div>
+		<img id="img" src="" alt="">
+		<input type="file" accept="image/png,image/gif" id="upImg" onchange="updateImg(event)">
+	</body>
+	<script type="text/javascript">
+		function updateImg(e) {
+			var reads = new FileReader();
+
+			f = e.target.files[0];
+
+			reads.readAsDataURL(f);
+
+			reads.onload = function(e) {
+				document.getElementById('img').src = this.result;
+
+			};
+		}
+	</script>
+</html>

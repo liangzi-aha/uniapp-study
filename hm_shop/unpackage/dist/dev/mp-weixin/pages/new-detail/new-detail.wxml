@@ -1,0 +1,1 @@
+<view class="news_detail"><view class="tit">{{details.title}}</view><view class="info"><text>{{"发表时间："+$root.f0}}</text><text>{{"发表次数："+details.click}}</text></view><rich-text class="content" nodes="{{details.content}}"></rich-text></view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "bing-progress": "/components/bing-progress/bing-progress"
+  },
+  "component": true
+}
